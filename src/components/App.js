@@ -8,6 +8,7 @@ class App extends Component {
                 <div>
                     <h1>Это собака</h1>
                 </div>
+
                 <img className='img' src={dogg}/>
 
             </div>

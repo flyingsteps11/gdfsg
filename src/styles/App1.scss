@@ -1,9 +1,10 @@
-@import '../styles/fonts';
+@import '../fonts/fonts';
 
 body {
+  font-family: 'beermoney';
 
   h1{
-    font-family: "HelveticaNeueCyr-Black", sans-serif;
+    font-family: "beermoney", sans-serif;
     color: #27aedb;
     text-align: center;
   }
