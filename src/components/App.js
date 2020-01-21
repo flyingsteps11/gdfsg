@@ -1,12 +1,18 @@
-import React,{Component} from 'react';
-const st = require('../styles/ App.scss');
-class App extends Component{
-    render(){
+import React, {Component} from 'react';
+import '../styles/App1.scss'
+import dogg from '../img/dog.jpg'
+class App extends Component {
+    render() {
         return (
-        <div>
-          <h1>Hello, react.js!!!</h1>
-        </div>
-    );
+            <div>
+                <div>
+                    <h1>Это собака</h1>
+                </div>
+                <img className='img' src={dogg}/>
+
+            </div>
+
+        );
     }
 }
 
