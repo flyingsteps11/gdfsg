@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import '../styles/App1.scss'
-import dogg from '../img/dog.jpg'
-class App extends Component {
+import '../../styles/App1.scss'
+import dogg from '../../img/dog.jpg'
+class Index extends Component {
     render() {
         return (
             <div>
@@ -17,4 +17,4 @@ class App extends Component {
     }
 }
 
-export default App;
+export default Index;
